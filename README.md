@@ -1,2 +1,2 @@
 # Kade Buttars
-test
+i do mostly art and less programming
