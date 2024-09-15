@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class TransformController : MonoBehaviour
 {
-    private void Update()
+    void Update()
     {
         var x = Mathf.PingPong(Time.time, 3);
         var p = new Vector3(0, x, 0);
