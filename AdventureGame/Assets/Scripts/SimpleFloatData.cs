@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu(menuName = "Single Variables/SimpleFloatData")]
+
 public class SimpleFloatData : MonoBehaviour
 {
     
