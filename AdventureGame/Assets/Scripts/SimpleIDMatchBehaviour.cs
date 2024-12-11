@@ -10,19 +10,15 @@ public class SimpleIDMatchBehaviour : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        Debug.Log("It Collided");
         var otherID = other.GetComponentInChildren<SimpleIDBehaviour>();
-        Debug.Log("it did the var thing");
 
         if (otherID.id == id)
         {
             matchEvent.Invoke();
-            Debug.Log("Matched ID: " + id);
         }
         else
         {
             noMatchEvent.Invoke();
-            Debug.Log("No Match: " + id);
         }
     }
 }
