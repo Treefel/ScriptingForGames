@@ -43,6 +43,7 @@ public class SimpleCharacterController : MonoBehaviour
         }
     }
 
+
     private void ApplyGravity()
     {
         if (!controller.isGrounded)
