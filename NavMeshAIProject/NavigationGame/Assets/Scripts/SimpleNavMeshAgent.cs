@@ -11,7 +11,6 @@ public class SimpleNavMeshAgent : MonoBehaviour
     private void Start()
     {
         agent = GetComponent<NavMeshAgent>();
-        
     }
 
     private void Update()
