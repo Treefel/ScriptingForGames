@@ -1,2 +1,2 @@
 # Kade Buttars
-i do mostly art and less programming
+Scripting For Games Class Work
